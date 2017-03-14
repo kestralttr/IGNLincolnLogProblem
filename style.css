@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -20,8 +20,31 @@ h2 {
   background-color: green;
 }
 
+#instructions-section {
+  text-align: center;
+  background-color: red;
+  padding: 10px 10px 10px 10px;
+}
+
+#instructions-section h2 {
+  text-decoration: underline;
+}
+
 #section-one {
   text-align: center;
   width: 100%;
   background-color: yellow;
+  padding: 10px 10px 10px 10px;
+}
+
+#section-two {
+  text-align: center;
+  width: 100%;
+  background-color: purple;
+  padding: 10px 10px 10px 10px;
+}
+
+#section-two img {
+  width:400px;
+  height: auto;
 }
