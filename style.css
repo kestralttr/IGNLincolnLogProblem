@@ -33,18 +33,28 @@ h2 {
 #section-one {
   text-align: center;
   width: 100%;
+  margin: 0 auto;
   background-color: yellow;
-  padding: 10px 10px 10px 10px;
+  /*padding: 10px 10px 10px 10px;*/
 }
 
 #section-two {
   text-align: center;
   width: 100%;
+  margin: 0 auto;
   background-color: purple;
-  padding: 10px 10px 10px 10px;
+  /*padding: 10px 20px 10px 20px;*/
 }
 
 #section-two img {
   width:400px;
   height: auto;
+}
+
+#section-three {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: blue;
+  /*padding: 10px 20px 10px 20px;*/
 }
