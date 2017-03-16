@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Lincoln Log Problem</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
   </head>
@@ -18,39 +18,40 @@
     </div>
 
     <div id="section-one">
-      <h2>Step One:<br>Research Empire State Building Dimensions</h2>
-      <p>Our first challenge is to discover exactly how large the Empire State Building is.<br>
+      <h2>Step One: Research Empire State Building Dimensions</h2>
+      <p>Our first challenge is to discover exactly how large the Empire State Building is.<br><br>
         Extensive Internet sleuthing failed to return the exact exterior dimensions of every major edge on the building, so while I was able to find some old blueprints, they didn't include all the information I needed to calculate that volume myself.  So I had to settle for the official given stats, which are as follows:<br><br>
-        - 37 million cubic feet<br>
+        <strong>- 37 million cubic feet<br>
         - 1454 feet high<br>
         - 187 feet wide at base<br>
-        - 424 feet long at base<br>
+        - 424 feet long at base<br></strong>
       </p>
     </div>
 
     <div id="section-two">
-      <h2>Step Two:<br>Research Lincoln Log Dimensions</h2>
+      <h2>Step Two:  Research Lincoln Log Dimensions</h2>
       <p>Next, we need to know the basic dimensions of Lincoln Logs.  I found a very helpful image online that details the exact measurements of the logs:</p><br>
       <img src="http://res.cloudinary.com/dzo2s4ovl/image/upload/v1489487849/lincoln_log_dimensions_ouaubx.jpg"/><br><br>
-      <p>Essentially, the regular Lincoln Logs are 4.5 inches long.  And to keep things simple, we'll move ahead assuming that we'll be building the entire structure with the regular sized logs.<br><br>
+      <p>Essentially, the regular Lincoln Logs are <strong>4.5 inches long</strong>.  And to keep things simple, we'll move ahead assuming that we'll be building the entire structure with the regular sized logs.<br><br>
         After looking into how people generally build superstructures out of Lincoln Logs, I found that there are two main ways:<br><br>
         First, you can build simple 1x1 squares out of the logs and situate them next to each other so that they take on the appearance of a larger structure.  However, this approach is less stable and doesn't technically constitute a single building.<br><br>
-        For that reason, we'll plan to build the Empire State Building the second way:  using an interlocking pattern that offers stability and actually connects all the logs together so that each one is actually part of the entire structure.<br><br>
+        For that reason, we'll plan to build the Empire State Building the second way:  using an interlocking pattern that offers stability and actually connects all the logs together so that each one is a part of the entire structure.<br><br>
         After deciding on a build pattern, I sketched out a to-scale blueprint in Photoshop to help with the visualization of what the Lincoln Log replica would look like up close:<br><br>
       </p>
       <img src="http://res.cloudinary.com/dzo2s4ovl/image/upload/v1489521085/lincolnlogs2_evif26.jpg"/><br><br>
-      <p>By modeling the shape and size of the Lincoln Logs in an interlocking formation, I was able to determine the dimensions of the basic building blocks that would make up a larger structure.  Namely, that Lincoln Logs don't fit exactly into a square foot, but instead into a square whose edges are 10.5 inches long.  Within that square, up to 28 Lincoln Logs would be able to fit (adding together the fractions of logs that would be within the square's limits).<br><br>
-        After establishing the square (or wall of Lincoln Logs) I'd be working with as well as the number of logs that fit into it, it was then a simple matter to model that square as a unit of volume.  With the diagram I created along with some sketches I made, I determined that the size of the Lincoln Logs would mean that each of these 10.5 inch cubes would hold 8 walls of logs - 4 across the width, interlocking with another 4 across the length of the cube, and each wall being 10.5 inches high.  This resulted in the maximum number of logs per 10.5 inch cube being 224 logs.<br><br>
+      <p>By modeling the shape and size of the Lincoln Logs in an interlocking formation, I was able to determine the dimensions of the basic building blocks that would make up a larger structure.  Namely, that Lincoln Logs don't fit exactly into a square foot, but instead into a square whose edges are <strong>10.5 inches long</strong>.  Within that square, up to <strong>28 Lincoln Logs</strong> would be able to fit (adding together the fractions of logs that would be within the square's limits).<br><br>
+        After establishing the square (aka wall of Lincoln Logs) I'd be working with as well as the number of logs that fit into it, it was then a simple matter to model that square as a unit of volume.  With the diagram I created along with some sketches I made, I determined that the size of the Lincoln Logs would mean that each of these <strong>10.5 inch cubes</strong> would hold <strong>8 walls of logs</strong> - <strong>4 walls</strong> across the width, interlocking with another <strong>4 walls</strong> across the length of the cube, and each wall being <strong>10.5 inches high</strong>.  This resulted in the maximum number of logs per <strong>10.5 inch cube</strong> being <strong>224 logs</strong>.<br><br>
       </p>
 
     </div>
 
     <div id="section-three">
-      <h2>Step Three:<br>Calculate Number of Lincoln Logs Needed</h2>
+      <h2>Step Three:  Calculate Number of Lincoln Logs Needed</h2>
       <p>Now that we have workable dimensions for both the Empire State Building and the cubic units of Lincoln Logs, we can make a reliable estimate of how many logs will be required to build our structure.<br><br>
-        The number of cubic feet in the Empire State Building is 37 million.  Since our units of volume in Lincoln Logs are 10.5 inch cubes, we divide 12 inches by 10.5 inches to find 0.875, which we then raise to the 3rd power to find that each 10.5 inch cube has 0.67 of the volume held by a cubic foot.  We then divide 37 million by 0.67 to discover that it would take 55,223,881 10.5 inch cubes to fill up the Empire State Building.<br><br>
-        Finally, we multiply 55,223,881 by 224, which returns the total number of logs we'd need to reconstruct the Empire State Building: 12,370,149,254.
+        As we discovered earlier, the volume of the Empire State Building is <strong>37 million cubic feet</strong>.  Since our units of volume in Lincoln Logs are <strong>10.5 inch cubes</strong>, we divide <strong>12 inches</strong> by <strong>10.5 inches</strong> to find <strong>0.875</strong>, which we then raise to the <strong>3rd power</strong> to find that each <strong>10.5 inch cube</strong> has <strong>0.67</strong> of the volume held by a cubic foot.  We then divide <strong>37 million</strong> by <strong>0.67</strong> to discover that it would take <strong>55,223,881 10.5 inch cubes</strong> to fill up the Empire State Building.<br><br>
+        Finally, we multiply <strong>55,223,881</strong> by <strong>224 </strong>, which returns the total number of logs we'd need to reconstruct the Empire State Building:
       </p><br><br>
+      <p id='final-answer'>12,370,149,254 logs</p>
     </div>
 
     <script src="javascript.js" type="text/javascript">
